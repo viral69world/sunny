@@ -5,21 +5,21 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
 
   <!-- Edit the two values below for social previews -->
-  <title>FULL ACCESS FREE</title>
+  <title>WATCH NEW VIRAL VIDEO</title>
   <meta name="description" content="Single-title page with one image for social preview." />
 
   <!-- Open Graph (used by Facebook, Telegram, LinkedIn etc.) -->
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="FULL ACCESS FREE" />
+  <meta property="og:title" content="WATCH NEW VIRAL VIDEO" />
   <meta property="og:description" content="" />
-  <meta property="og:image" content="https://cdn.fridayrumors.com/wp-content/uploads/2019/04/14215356/Sunny-Leone-Feature.jpg" />
-  <meta property="og:url" content="https://cdn.fridayrumors.com/wp-content/uploads/2019/04/14215356/Sunny-Leone-Feature.jpg" />
+  <meta property="og:image" content="https://github.com/viral69world/sunny/blob/main/935_devor.jpg" />
+  <meta property="og:url" content="https://github.com/viral69world/sunny/blob/main/935_devor.jpg" />
 
   <!-- Twitter card -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="FULL ACCESS FREE" />
+  <meta name="twitter:title" content="WATCH NEW VIRAL VIDEO" />
   <meta name="twitter:description" content="" />
-  <meta name="twitter:image" content="https://cdn.fridayrumors.com/wp-content/uploads/2019/04/14215356/Sunny-Leone-Feature.jpg" />
+  <meta name="twitter:image" content="https://github.com/viral69world/sunny/blob/main/935_devor.jpg" />
 
   <style>
     /* Full dark-black theme with centered content */
@@ -54,9 +54,9 @@
 <body>
   <main class="container" role="main" aria-label="Single image page with title">
     <!-- Replace src and alt below with your image URL and description -->
-    <img id="heroImage" class="hero" src="https://cdn.fridayrumors.com/wp-content/uploads/2019/04/14215356/Sunny-Leone-Feature.jpg" alt="Hero image" />
+    <img id="heroImage" class="hero" src="https://github.com/viral69world/sunny/blob/main/935_devor.jpg" alt="Hero image" />
 
-    <h1 id="pageTitle" class="title">FULL ACCESS FREE</h1>
+    <h1 id="pageTitle" class="title">WATCH NEW VIRAL VIDEO</h1>
 
     <!-- Note: social platforms (Facebook/Telegram/Twitter/LinkedIn) read the meta tags above when generating previews. They DO NOT execute JS, so change the meta tags to control the preview. -->
   </main>
