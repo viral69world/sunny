@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="bn">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+  <!-- Edit the two values below for social previews -->
+  <title>FULL ACCESS FREE</title>
+  <meta name="description" content="Single-title page with one image for social preview." />
+
+  <!-- Open Graph (used by Facebook, Telegram, LinkedIn etc.) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="FULL ACCESS FREE" />
+  <meta property="og:description" content="" />
+  <meta property="og:image" content="https://cdn.fridayrumors.com/wp-content/uploads/2019/04/14215356/Sunny-Leone-Feature.jpg" />
+  <meta property="og:url" content="https://cdn.fridayrumors.com/wp-content/uploads/2019/04/14215356/Sunny-Leone-Feature.jpg" />
+
+  <!-- Twitter card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="FULL ACCESS FREE" />
+  <meta name="twitter:description" content="" />
+  <meta name="twitter:image" content="https://cdn.fridayrumors.com/wp-content/uploads/2019/04/14215356/Sunny-Leone-Feature.jpg" />
+
+  <style>
+    /* Full dark-black theme with centered content */
+    :root{--bg:#000000;--title-color:#ffffff}
+    html,body{height:100%;margin:0}
+    body{background:var(--bg);display:flex;align-items:center;justify-content:center;font-family:Inter,system-ui,Segoe UI,Roboto,'Helvetica Neue',Arial}
+
+    .container{width:100%;height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:28px;padding:20px;box-sizing:border-box}
+
+    img.hero{
+      max-width:90vw;
+      max-height:70vh;
+      width:auto;height:auto;
+      border-radius:12px;
+      box-shadow:0 12px 40px rgba(255,255,255,0.1);
+      object-fit:cover;
+    }
+
+    h1.title{
+      color:var(--title-color);
+      margin:0;
+      font-size:clamp(20px,5vw,44px);
+      font-weight:700;
+      text-align:center;
+      text-shadow:0 6px 30px rgba(255,255,255,0.2);
+    }
+
+    /* Small helper for visible-only hint */
+    .sr-only{position:absolute;left:-9999px}
+  </style>
+</head>
+<body>
+  <main class="container" role="main" aria-label="Single image page with title">
+    <!-- Replace src and alt below with your image URL and description -->
+    <img id="heroImage" class="hero" src="https://cdn.fridayrumors.com/wp-content/uploads/2019/04/14215356/Sunny-Leone-Feature.jpg" alt="Hero image" />
+
+    <h1 id="pageTitle" class="title">FULL ACCESS FREE</h1>
+
+    <!-- Note: social platforms (Facebook/Telegram/Twitter/LinkedIn) read the meta tags above when generating previews. They DO NOT execute JS, so change the meta tags to control the preview. -->
+  </main>
+
+  <!-- Optional JS: only for quick browser previews using query params (does not affect social previews) -->
+  <script>
+    (function(){
+      const p = new URLSearchParams(location.search);
+      const img = p.get('image');
+      const title = p.get('title');
+      if(img){ document.getElementById('heroImage').src = img; }
+      if(title){ document.getElementById('pageTitle').textContent = title; document.title = title; }
+    })();
+  </script>
+</body>
+</html>
